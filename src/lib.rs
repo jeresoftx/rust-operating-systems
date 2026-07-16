@@ -10,6 +10,7 @@
 pub mod memory;
 pub mod mutex;
 pub mod processes;
+pub mod scheduling;
 pub mod semaphores;
 
 /// Devuelve el nombre canónico del curso.

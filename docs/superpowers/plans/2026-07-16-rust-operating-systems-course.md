@@ -253,15 +253,15 @@ Antes de cada commit importante, cuando aplique:
 - Modify: `README.md`
 - Modify: `ROADMAP.md`
 
-- [ ] Diseñar API mínima: `TaskId`, `Task`, `Priority`, `Scheduler`, `SchedulingPolicy`, `SchedulingError`.
-- [ ] Escribir test rojo para seleccionar la siguiente tarea en round-robin.
-- [ ] Implementar política round-robin.
-- [ ] Escribir test rojo para prioridad mayor cuando la política sea priority scheduling.
-- [ ] Implementar política por prioridad.
-- [ ] Escribir test rojo para quantum agotado y reencolado.
-- [ ] Implementar `tick` educativo.
-- [ ] Escribir test rojo para detectar inanición potencial.
-- [ ] Implementar métrica de espera por tarea.
+- [x] Diseñar API mínima: `TaskId`, `Task`, `Priority`, `Scheduler`, `SchedulingPolicy`, `SchedulingError`.
+- [x] Escribir test rojo para seleccionar la siguiente tarea en round-robin.
+- [x] Implementar política round-robin.
+- [x] Escribir test rojo para prioridad mayor cuando la política sea priority scheduling.
+- [x] Implementar política por prioridad.
+- [x] Escribir test rojo para quantum agotado y reencolado.
+- [x] Implementar `tick` educativo.
+- [x] Escribir test rojo para detectar inanición potencial.
+- [x] Implementar métrica de espera por tarea.
 - [ ] Documentar scheduler, cola de listos, quantum, prioridad, fairness, throughput y latencia.
 - [ ] Crear diagrama Mermaid de cola de listos y cambio de contexto.
 - [ ] Crear ejemplos progresivos y caso real de jobs de fondo.
