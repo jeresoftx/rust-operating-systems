@@ -184,13 +184,13 @@ Antes de cada commit importante, cuando aplique:
 - [x] Implementar liberación determinista.
 - [x] Escribir test rojo para rechazar liberaciones que excedan capacidad.
 - [x] Implementar error `CapacityExceeded`.
-- [ ] Documentar semáforo contador, capacidad, cola de espera, backpressure y diferencias contra mutex.
-- [ ] Crear diagrama Mermaid de permisos y cola.
-- [ ] Crear ejemplos progresivos y caso real de pool de conexiones.
-- [ ] Crear ejercicios y soluciones.
-- [ ] Crear benchmark de adquisición/liberación con capacidad limitada.
-- [ ] Actualizar README y ROADMAP a `benchmarked`.
-- [ ] Verificar y hacer commit: `feat: add semaphores chapter`.
+- [x] Documentar semáforo contador, capacidad, cola de espera, backpressure y diferencias contra mutex.
+- [x] Crear diagrama Mermaid de permisos y cola.
+- [x] Crear ejemplos progresivos y caso real de pool de conexiones.
+- [x] Crear ejercicios y soluciones.
+- [x] Crear benchmark de adquisición/liberación con capacidad limitada.
+- [x] Actualizar README y ROADMAP a `benchmarked`.
+- [x] Verificar y hacer commit: `feat: add semaphores chapter`.
 
 ---
 

@@ -37,10 +37,26 @@ path = "examples/soluciones/mutex_contention.rs"
 name = "solution_mutex_poisoning_model"
 path = "examples/soluciones/mutex_poisoning_model.rs"
 
+[[example]]
+name = "solution_semaphore_acquire_release"
+path = "examples/soluciones/semaphore_acquire_release.rs"
+
+[[example]]
+name = "solution_semaphore_capacity"
+path = "examples/soluciones/semaphore_capacity.rs"
+
+[[example]]
+name = "solution_semaphore_wait_queue"
+path = "examples/soluciones/semaphore_wait_queue.rs"
+
 [[bench]]
 name = "processes_bench"
 harness = false
 
 [[bench]]
 name = "mutex_bench"
+harness = false
+
+[[bench]]
+name = "semaphores_bench"
 harness = false

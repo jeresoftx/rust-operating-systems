@@ -35,7 +35,7 @@ cursos pueden reutilizar esos conceptos, pero no deben reexplicarlos desde cero.
 |---|----------|--------|--------|
 | 01 | Procesos e hilos | `src/processes.rs` | benchmarked |
 | 02 | Mutex | `src/mutex.rs` | benchmarked |
-| 03 | Semáforos | `src/semaphores.rs` | planned |
+| 03 | Semáforos | `src/semaphores.rs` | benchmarked |
 | 04 | Memoria | `src/memory.rs` | planned |
 | 05 | Scheduling | `src/scheduling.rs` | planned |
 | 06 | Paging | `src/paging.rs` | planned |

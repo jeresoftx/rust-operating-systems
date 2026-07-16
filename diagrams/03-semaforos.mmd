@@ -1,0 +1,12 @@
+flowchart LR
+    Sem["Semáforo capacidad=2"] --> P1["Permiso en uso"]
+    Sem --> P2["Permiso disponible"]
+    Hilo["Hilo solicita"] --> Acquire["acquire()"]
+    Acquire --> Otorga{"¿hay capacidad?"}
+    Otorga -- "sí" --> Permit["Permit"]
+    Otorga -- "no" --> Wait["Waiter FIFO"]
+    Wait --> Queue["Cola de espera"]
+    P1 --> Release["release(permit)"]
+    Release --> Wake{"¿hay espera?"}
+    Wake -- "sí" --> Next["Despierta siguiente"]
+    Wake -- "no" --> Available["Aumenta disponibles"]
