@@ -8,9 +8,9 @@ orienta el avance, pero no convierte el curso en una carrera por terminar.
 
 ## Estado Actual
 
-El repositorio ya tiene la fundación del curso y el primer capítulo
-desarrollado: procesos e hilos. La siguiente línea natural es continuar con
-mutex sin perder la anatomía completa de RFC-0001 §14.
+El repositorio ya tiene la fundación del curso y los dos primeros capítulos
+desarrollados: procesos e hilos, y mutex. La siguiente línea natural es
+continuar con semáforos sin perder la anatomía completa de RFC-0001 §14.
 
 El checklist detallado vive en
 [`docs/superpowers/plans/2026-07-16-rust-operating-systems-course.md`](docs/superpowers/plans/2026-07-16-rust-operating-systems-course.md).
@@ -20,7 +20,7 @@ El checklist detallado vive en
 | # | Capítulo | Estado |
 |---|----------|--------|
 | 01 | Procesos e hilos | benchmarked |
-| 02 | Mutex | planned |
+| 02 | Mutex | benchmarked |
 | 03 | Semáforos | planned |
 | 04 | Memoria | planned |
 | 05 | Scheduling | planned |

@@ -1,0 +1,13 @@
+flowchart LR
+    Free["Free"] --> Lock["lock(owner)"]
+    Lock --> Locked["Locked { owner }"]
+    Locked --> Contender["lock(contender)"]
+    Contender --> Already["AlreadyLocked"]
+    Locked --> Unlock["unlock(owner)"]
+    Unlock --> Free
+    Locked --> Wrong["unlock(no dueño)"]
+    Wrong --> NotOwner["NotOwner"]
+    Locked --> Poison["poison(owner)"]
+    Poison --> Poisoned["Poisoned"]
+    Poisoned --> Recover["recover()"]
+    Recover --> Free

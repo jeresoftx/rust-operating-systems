@@ -25,6 +25,22 @@ path = "examples/soluciones/thread_spawn_join.rs"
 name = "solution_process_tree"
 path = "examples/soluciones/process_tree.rs"
 
+[[example]]
+name = "solution_mutex_lock_unlock"
+path = "examples/soluciones/mutex_lock_unlock.rs"
+
+[[example]]
+name = "solution_mutex_contention"
+path = "examples/soluciones/mutex_contention.rs"
+
+[[example]]
+name = "solution_mutex_poisoning_model"
+path = "examples/soluciones/mutex_poisoning_model.rs"
+
 [[bench]]
 name = "processes_bench"
+harness = false
+
+[[bench]]
+name = "mutex_bench"
 harness = false

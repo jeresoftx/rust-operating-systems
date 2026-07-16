@@ -144,14 +144,14 @@ Antes de cada commit importante, cuando aplique:
 - [x] Implementar error `NotOwner`.
 - [x] Escribir test rojo para modelo de poisoning educativo tras falla del propietario.
 - [x] Implementar estado `Poisoned` sin depender de `std::sync::Mutex` como mecanismo principal.
-- [ ] Documentar exclusión mutua, región crítica, propietario, contención y poisoning.
-- [ ] Citar que deadlocks son canónicos en `rust-concurrency`; aquí se explican solo como riesgo operativo.
-- [ ] Crear diagrama Mermaid de bloqueo, adquisición y liberación.
-- [ ] Crear ejemplos progresivos y caso real de contador compartido.
-- [ ] Crear ejercicios y soluciones.
-- [ ] Crear benchmark de adquisición/liberación del modelo.
-- [ ] Actualizar README y ROADMAP a `benchmarked`.
-- [ ] Verificar y hacer commit: `feat: add mutex chapter`.
+- [x] Documentar exclusión mutua, región crítica, propietario, contención y poisoning.
+- [x] Citar que deadlocks son canónicos en `rust-concurrency`; aquí se explican solo como riesgo operativo.
+- [x] Crear diagrama Mermaid de bloqueo, adquisición y liberación.
+- [x] Crear ejemplos progresivos y caso real de contador compartido.
+- [x] Crear ejercicios y soluciones.
+- [x] Crear benchmark de adquisición/liberación del modelo.
+- [x] Actualizar README y ROADMAP a `benchmarked`.
+- [x] Verificar y hacer commit: `feat: add mutex chapter`.
 
 ---
 

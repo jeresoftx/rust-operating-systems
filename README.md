@@ -34,7 +34,7 @@ cursos pueden reutilizar esos conceptos, pero no deben reexplicarlos desde cero.
 | # | Capítulo | Módulo | Estado |
 |---|----------|--------|--------|
 | 01 | Procesos e hilos | `src/processes.rs` | benchmarked |
-| 02 | Mutex | `src/mutex.rs` | planned |
+| 02 | Mutex | `src/mutex.rs` | benchmarked |
 | 03 | Semáforos | `src/semaphores.rs` | planned |
 | 04 | Memoria | `src/memory.rs` | planned |
 | 05 | Scheduling | `src/scheduling.rs` | planned |
