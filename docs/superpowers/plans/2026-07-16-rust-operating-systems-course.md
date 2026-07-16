@@ -292,15 +292,15 @@ Antes de cada commit importante, cuando aplique:
 - Modify: `README.md`
 - Modify: `ROADMAP.md`
 
-- [ ] Diseñar API mínima: `PageNumber`, `FrameNumber`, `PageSize`, `PageTableEntry`, `PageTable`, `PageFault`, `PagingError`.
-- [ ] Escribir test rojo para traducir página a frame.
-- [ ] Implementar tabla de páginas básica.
-- [ ] Escribir test rojo para page fault cuando la página no está presente.
-- [ ] Implementar error `PageFault`.
-- [ ] Escribir test rojo para permisos de lectura/escritura.
-- [ ] Implementar flags educativos de permisos.
-- [ ] Escribir test rojo para reemplazo FIFO de página.
-- [ ] Implementar política FIFO mínima.
+- [x] Diseñar API mínima: `PageNumber`, `FrameNumber`, `PageSize`, `PageTableEntry`, `PageTable`, `PageFault`, `PagingError`.
+- [x] Escribir test rojo para traducir página a frame.
+- [x] Implementar tabla de páginas básica.
+- [x] Escribir test rojo para page fault cuando la página no está presente.
+- [x] Implementar error `PageFault`.
+- [x] Escribir test rojo para permisos de lectura/escritura.
+- [x] Implementar flags educativos de permisos.
+- [x] Escribir test rojo para reemplazo FIFO de página.
+- [x] Implementar política FIFO mínima.
 - [ ] Documentar páginas, frames, offset, page table, page fault y reemplazo.
 - [ ] Crear diagrama Mermaid de traducción página-frame-offset.
 - [ ] Crear ejemplos progresivos y caso real de working set pequeño.

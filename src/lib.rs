@@ -9,6 +9,7 @@
 
 pub mod memory;
 pub mod mutex;
+pub mod paging;
 pub mod processes;
 pub mod scheduling;
 pub mod semaphores;
