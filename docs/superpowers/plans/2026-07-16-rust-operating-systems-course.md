@@ -135,15 +135,15 @@ Antes de cada commit importante, cuando aplique:
 - Modify: `README.md`
 - Modify: `ROADMAP.md`
 
-- [ ] Diseñar API mínima: `MutexId`, `MutexState`, `MutexModel`, `LockGuardModel`, `MutexError`.
-- [ ] Escribir test rojo para adquirir un mutex libre.
-- [ ] Implementar adquisición y liberación explícita.
-- [ ] Escribir test rojo para rechazar doble adquisición por otro hilo.
-- [ ] Implementar contención educativa con propietario actual.
-- [ ] Escribir test rojo para liberar desde un hilo que no es dueño.
-- [ ] Implementar error `NotOwner`.
-- [ ] Escribir test rojo para modelo de poisoning educativo tras falla del propietario.
-- [ ] Implementar estado `Poisoned` sin depender de `std::sync::Mutex` como mecanismo principal.
+- [x] Diseñar API mínima: `MutexId`, `MutexState`, `MutexModel`, `LockGuardModel`, `MutexError`.
+- [x] Escribir test rojo para adquirir un mutex libre.
+- [x] Implementar adquisición y liberación explícita.
+- [x] Escribir test rojo para rechazar doble adquisición por otro hilo.
+- [x] Implementar contención educativa con propietario actual.
+- [x] Escribir test rojo para liberar desde un hilo que no es dueño.
+- [x] Implementar error `NotOwner`.
+- [x] Escribir test rojo para modelo de poisoning educativo tras falla del propietario.
+- [x] Implementar estado `Poisoned` sin depender de `std::sync::Mutex` como mecanismo principal.
 - [ ] Documentar exclusión mutua, región crítica, propietario, contención y poisoning.
 - [ ] Citar que deadlocks son canónicos en `rust-concurrency`; aquí se explican solo como riesgo operativo.
 - [ ] Crear diagrama Mermaid de bloqueo, adquisición y liberación.
