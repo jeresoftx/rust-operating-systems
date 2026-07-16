@@ -7,6 +7,8 @@
 //! La intención inicial no es construir un kernel de producción. La intención
 //! es crear modelos educativos pequeños, verificables y bien documentados.
 
+pub mod processes;
+
 /// Devuelve el nombre canónico del curso.
 ///
 /// # Examples

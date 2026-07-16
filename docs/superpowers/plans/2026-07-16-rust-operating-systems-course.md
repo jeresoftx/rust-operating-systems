@@ -96,15 +96,15 @@ Antes de cada commit importante, cuando aplique:
 - Modify: `README.md`
 - Modify: `ROADMAP.md`
 
-- [ ] Diseñar API mínima: `ProcessId`, `ThreadId`, `ProcessState`, `ThreadState`, `Process`, `Thread`, `ProcessTable`, `ProcessError`.
-- [ ] Escribir test rojo para crear un proceso con PID, nombre y estado inicial `Ready`.
-- [ ] Implementar `ProcessId`, `ProcessState` y `Process`.
-- [ ] Escribir test rojo para transición `Ready -> Running -> Blocked -> Ready -> Terminated`.
-- [ ] Implementar transición de estados con errores para transiciones inválidas.
-- [ ] Escribir test rojo para crear hilos dentro de un proceso.
-- [ ] Implementar `Thread`, `ThreadId` y relación proceso-hilos.
-- [ ] Escribir test rojo para tabla de procesos con búsqueda por PID y rechazo de duplicados.
-- [ ] Implementar `ProcessTable`.
+- [x] Diseñar API mínima: `ProcessId`, `ThreadId`, `ProcessState`, `ThreadState`, `Process`, `Thread`, `ProcessTable`, `ProcessError`.
+- [x] Escribir test rojo para crear un proceso con PID, nombre y estado inicial `Ready`.
+- [x] Implementar `ProcessId`, `ProcessState` y `Process`.
+- [x] Escribir test rojo para transición `Ready -> Running -> Blocked -> Ready -> Terminated`.
+- [x] Implementar transición de estados con errores para transiciones inválidas.
+- [x] Escribir test rojo para crear hilos dentro de un proceso.
+- [x] Implementar `Thread`, `ThreadId` y relación proceso-hilos.
+- [x] Escribir test rojo para tabla de procesos con búsqueda por PID y rechazo de duplicados.
+- [x] Implementar `ProcessTable`.
 - [ ] Documentar diferencia entre proceso e hilo, espacio de direcciones, estado, contexto y ciclo de vida.
 - [ ] Crear diagrama Mermaid de ciclo de vida y tabla de procesos.
 - [ ] Crear ejemplos progresivos y caso real de servidor con hilos de trabajo.
