@@ -1,0 +1,14 @@
+flowchart LR
+    Region["MemoryRegion [inicio, fin)"] --> Free["Hueco libre"]
+    Region --> UsedA["Allocation A"]
+    Region --> UsedB["Allocation B"]
+    Request["allocate(bytes)"] --> Fit{"¿primer hueco suficiente?"}
+    Fit -- "sí" --> Split["Divide hueco"]
+    Split --> NewAlloc["Nueva Allocation"]
+    Split --> Remaining["Remanente libre"]
+    Fit -- "no" --> Oom["OutOfMemory"]
+    FreeCall["free(allocation)"] --> Validate{"¿asignación conocida?"}
+    Validate -- "sí" --> Return["Regresa a huecos"]
+    Return --> Coalesce["Fusiona contiguos"]
+    Coalesce --> Metric["fragmentación externa = libre total - mayor hueco"]
+    Validate -- "no" --> Unknown["UnknownAllocation"]

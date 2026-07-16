@@ -223,13 +223,13 @@ Antes de cada commit importante, cuando aplique:
 - [x] Implementar liberación y coalescing simple de huecos contiguos.
 - [x] Escribir test rojo para detectar fragmentación externa.
 - [x] Implementar métrica educativa de fragmentación.
-- [ ] Documentar direcciones, regiones, asignación, liberación, fragmentación interna y externa.
-- [ ] Crear diagrama Mermaid de región, bloques y huecos.
-- [ ] Crear ejemplos progresivos y caso real de arena para solicitudes.
-- [ ] Crear ejercicios y soluciones.
-- [ ] Crear benchmark de asignación/liberación first-fit.
-- [ ] Actualizar README y ROADMAP a `benchmarked`.
-- [ ] Verificar y hacer commit: `feat: add memory chapter`.
+- [x] Documentar direcciones, regiones, asignación, liberación, fragmentación interna y externa.
+- [x] Crear diagrama Mermaid de región, bloques y huecos.
+- [x] Crear ejemplos progresivos y caso real de arena para solicitudes.
+- [x] Crear ejercicios y soluciones.
+- [x] Crear benchmark de asignación/liberación first-fit.
+- [x] Actualizar README y ROADMAP a `benchmarked`.
+- [x] Verificar y hacer commit: `feat: add memory chapter`.
 
 ---
 
