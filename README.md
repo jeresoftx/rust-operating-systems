@@ -101,6 +101,8 @@ cargo bench
 
 - `AGENTS.md` es la guía de arranque para humanos e IA en este repositorio.
 - `ROADMAP.md` registra el avance del curso sin convertirlo en una fecha límite.
+- `docs/superpowers/plans/2026-07-16-rust-operating-systems-course.md`
+  contiene el checklist de implementación inicial.
 - `LICENSE.md` resume la doble licencia: código bajo `MIT OR Apache-2.0`;
   contenido educativo bajo `CC BY-SA 4.0`.
 
