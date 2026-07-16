@@ -175,15 +175,15 @@ Antes de cada commit importante, cuando aplique:
 - Modify: `README.md`
 - Modify: `ROADMAP.md`
 
-- [ ] Diseñar API mínima: `SemaphoreId`, `Semaphore`, `Permit`, `Waiter`, `SemaphoreError`.
-- [ ] Escribir test rojo para adquirir un permiso cuando hay capacidad.
-- [ ] Implementar contador de permisos.
-- [ ] Escribir test rojo para agotar capacidad y poner solicitantes en espera.
-- [ ] Implementar cola educativa de espera.
-- [ ] Escribir test rojo para liberar un permiso y despertar al siguiente solicitante.
-- [ ] Implementar liberación determinista.
-- [ ] Escribir test rojo para rechazar liberaciones que excedan capacidad.
-- [ ] Implementar error `CapacityExceeded`.
+- [x] Diseñar API mínima: `SemaphoreId`, `Semaphore`, `Permit`, `Waiter`, `SemaphoreError`.
+- [x] Escribir test rojo para adquirir un permiso cuando hay capacidad.
+- [x] Implementar contador de permisos.
+- [x] Escribir test rojo para agotar capacidad y poner solicitantes en espera.
+- [x] Implementar cola educativa de espera.
+- [x] Escribir test rojo para liberar un permiso y despertar al siguiente solicitante.
+- [x] Implementar liberación determinista.
+- [x] Escribir test rojo para rechazar liberaciones que excedan capacidad.
+- [x] Implementar error `CapacityExceeded`.
 - [ ] Documentar semáforo contador, capacidad, cola de espera, backpressure y diferencias contra mutex.
 - [ ] Crear diagrama Mermaid de permisos y cola.
 - [ ] Crear ejemplos progresivos y caso real de pool de conexiones.

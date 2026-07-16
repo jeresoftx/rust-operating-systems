@@ -9,6 +9,7 @@
 
 pub mod mutex;
 pub mod processes;
+pub mod semaphores;
 
 /// Devuelve el nombre canónico del curso.
 ///
