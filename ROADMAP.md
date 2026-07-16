@@ -8,9 +8,9 @@ orienta el avance, pero no convierte el curso en una carrera por terminar.
 
 ## Estado Actual
 
-El repositorio ya tiene la fundación del curso y los cuatro primeros capítulos
-desarrollados: procesos e hilos, mutex, semáforos y memoria. La siguiente línea
-natural es continuar con scheduling sin perder la anatomía completa de
+El repositorio ya tiene la fundación del curso y los cinco primeros capítulos
+desarrollados: procesos e hilos, mutex, semáforos, memoria y scheduling. La
+siguiente línea natural es continuar con paging sin perder la anatomía completa de
 RFC-0001 §14.
 
 El checklist detallado vive en
@@ -24,7 +24,7 @@ El checklist detallado vive en
 | 02 | Mutex | benchmarked |
 | 03 | Semáforos | benchmarked |
 | 04 | Memoria | benchmarked |
-| 05 | Scheduling | planned |
+| 05 | Scheduling | benchmarked |
 | 06 | Paging | planned |
 | 07 | Memoria virtual | planned |
 | 08 | Señales | planned |

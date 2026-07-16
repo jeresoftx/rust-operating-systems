@@ -1,0 +1,16 @@
+flowchart LR
+    Ready["Cola de listos"] --> Dispatch["dispatch_next()"]
+    Dispatch --> Policy{"Política"}
+    Policy -- "round-robin" --> Front["Primera tarea"]
+    Policy -- "prioridad" --> Highest["Mayor prioridad"]
+    Front --> Running["Tarea en ejecución"]
+    Highest --> Running
+    Running --> Tick["tick()"]
+    Tick --> Done{"¿terminó?"}
+    Done -- "sí" --> Finished["Tareas terminadas"]
+    Done -- "no" --> Quantum{"¿quantum agotado?"}
+    Quantum -- "sí" --> Requeue["Reencolar al final"]
+    Requeue --> Ready
+    Quantum -- "no" --> Running
+    Tick --> Wait["Incrementa espera de tareas listas"]
+    Wait --> Starvation["starving_tasks(umbral)"]

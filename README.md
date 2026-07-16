@@ -37,7 +37,7 @@ cursos pueden reutilizar esos conceptos, pero no deben reexplicarlos desde cero.
 | 02 | Mutex | `src/mutex.rs` | benchmarked |
 | 03 | Semáforos | `src/semaphores.rs` | benchmarked |
 | 04 | Memoria | `src/memory.rs` | benchmarked |
-| 05 | Scheduling | `src/scheduling.rs` | planned |
+| 05 | Scheduling | `src/scheduling.rs` | benchmarked |
 | 06 | Paging | `src/paging.rs` | planned |
 | 07 | Memoria virtual | `src/virtual_memory.rs` | planned |
 | 08 | Señales | `src/signals.rs` | planned |

@@ -262,13 +262,13 @@ Antes de cada commit importante, cuando aplique:
 - [x] Implementar `tick` educativo.
 - [x] Escribir test rojo para detectar inanición potencial.
 - [x] Implementar métrica de espera por tarea.
-- [ ] Documentar scheduler, cola de listos, quantum, prioridad, fairness, throughput y latencia.
-- [ ] Crear diagrama Mermaid de cola de listos y cambio de contexto.
-- [ ] Crear ejemplos progresivos y caso real de jobs de fondo.
-- [ ] Crear ejercicios y soluciones.
-- [ ] Crear benchmark de selección de siguiente tarea.
-- [ ] Actualizar README y ROADMAP a `benchmarked`.
-- [ ] Verificar y hacer commit: `feat: add scheduling chapter`.
+- [x] Documentar scheduler, cola de listos, quantum, prioridad, fairness, throughput y latencia.
+- [x] Crear diagrama Mermaid de cola de listos y cambio de contexto.
+- [x] Crear ejemplos progresivos y caso real de jobs de fondo.
+- [x] Crear ejercicios y soluciones.
+- [x] Crear benchmark de selección de siguiente tarea.
+- [x] Actualizar README y ROADMAP a `benchmarked`.
+- [x] Verificar y hacer commit: `feat: add scheduling chapter`.
 
 ---
 
