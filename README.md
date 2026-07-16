@@ -38,7 +38,7 @@ cursos pueden reutilizar esos conceptos, pero no deben reexplicarlos desde cero.
 | 03 | Semáforos | `src/semaphores.rs` | benchmarked |
 | 04 | Memoria | `src/memory.rs` | benchmarked |
 | 05 | Scheduling | `src/scheduling.rs` | benchmarked |
-| 06 | Paging | `src/paging.rs` | planned |
+| 06 | Paging | `src/paging.rs` | benchmarked |
 | 07 | Memoria virtual | `src/virtual_memory.rs` | planned |
 | 08 | Señales | `src/signals.rs` | planned |
 | 09 | IPC | `src/ipc.rs` | planned |

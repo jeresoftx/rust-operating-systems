@@ -1,0 +1,17 @@
+flowchart LR
+    Virtual["Dirección virtual"] --> Split["Separar página y offset"]
+    Split --> Page["PageNumber"]
+    Split --> Offset["Offset"]
+    Page --> Table["PageTable"]
+    Table --> Present{"¿mapeada y presente?"}
+    Present -- "no" --> Fault["PageFault"]
+    Present -- "sí" --> Perms{"¿permiso válido?"}
+    Perms -- "no" --> Protection["ProtectionViolation"]
+    Perms -- "sí" --> Frame["FrameNumber"]
+    Frame --> Compose["frame * page_size + offset"]
+    Offset --> Compose
+    Compose --> Physical["Dirección física"]
+    NewMap["map_page()"] --> Capacity{"¿capacidad llena?"}
+    Capacity -- "sí" --> Fifo["Expulsar página más antigua"]
+    Capacity -- "no" --> Insert["Insertar entrada"]
+    Fifo --> Insert

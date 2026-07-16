@@ -73,6 +73,18 @@ path = "examples/soluciones/scheduler_priority.rs"
 name = "solution_scheduler_starvation"
 path = "examples/soluciones/scheduler_starvation.rs"
 
+[[example]]
+name = "solution_page_translation"
+path = "examples/soluciones/page_translation.rs"
+
+[[example]]
+name = "solution_page_fault"
+path = "examples/soluciones/page_fault.rs"
+
+[[example]]
+name = "solution_page_replacement"
+path = "examples/soluciones/page_replacement.rs"
+
 [[bench]]
 name = "processes_bench"
 harness = false
@@ -91,4 +103,8 @@ harness = false
 
 [[bench]]
 name = "scheduling_bench"
+harness = false
+
+[[bench]]
+name = "paging_bench"
 harness = false

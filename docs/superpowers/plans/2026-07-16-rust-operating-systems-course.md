@@ -301,13 +301,13 @@ Antes de cada commit importante, cuando aplique:
 - [x] Implementar flags educativos de permisos.
 - [x] Escribir test rojo para reemplazo FIFO de página.
 - [x] Implementar política FIFO mínima.
-- [ ] Documentar páginas, frames, offset, page table, page fault y reemplazo.
-- [ ] Crear diagrama Mermaid de traducción página-frame-offset.
-- [ ] Crear ejemplos progresivos y caso real de working set pequeño.
-- [ ] Crear ejercicios y soluciones.
-- [ ] Crear benchmark de traducción de direcciones.
-- [ ] Actualizar README y ROADMAP a `benchmarked`.
-- [ ] Verificar y hacer commit: `feat: add paging chapter`.
+- [x] Documentar páginas, frames, offset, page table, page fault y reemplazo.
+- [x] Crear diagrama Mermaid de traducción página-frame-offset.
+- [x] Crear ejemplos progresivos y caso real de working set pequeño.
+- [x] Crear ejercicios y soluciones.
+- [x] Crear benchmark de traducción de direcciones.
+- [x] Actualizar README y ROADMAP a `benchmarked`.
+- [x] Verificar y hacer commit: `feat: add paging chapter`.
 
 ---
 
