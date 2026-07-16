@@ -12,3 +12,19 @@ name = "rust_operating_systems"
 path = "src/lib.rs"
 
 [dependencies]
+
+[[example]]
+name = "solution_process_lifecycle"
+path = "examples/soluciones/process_lifecycle.rs"
+
+[[example]]
+name = "solution_thread_spawn_join"
+path = "examples/soluciones/thread_spawn_join.rs"
+
+[[example]]
+name = "solution_process_tree"
+path = "examples/soluciones/process_tree.rs"
+
+[[bench]]
+name = "processes_bench"
+harness = false

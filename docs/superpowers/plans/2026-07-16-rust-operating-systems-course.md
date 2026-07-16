@@ -105,13 +105,13 @@ Antes de cada commit importante, cuando aplique:
 - [x] Implementar `Thread`, `ThreadId` y relación proceso-hilos.
 - [x] Escribir test rojo para tabla de procesos con búsqueda por PID y rechazo de duplicados.
 - [x] Implementar `ProcessTable`.
-- [ ] Documentar diferencia entre proceso e hilo, espacio de direcciones, estado, contexto y ciclo de vida.
-- [ ] Crear diagrama Mermaid de ciclo de vida y tabla de procesos.
-- [ ] Crear ejemplos progresivos y caso real de servidor con hilos de trabajo.
-- [ ] Crear ejercicios y soluciones.
-- [ ] Crear benchmark de búsqueda en tabla de procesos y transición de estados.
-- [ ] Actualizar README y ROADMAP a `benchmarked`.
-- [ ] Verificar y hacer commit: `feat: add processes chapter`.
+- [x] Documentar diferencia entre proceso e hilo, espacio de direcciones, estado, contexto y ciclo de vida.
+- [x] Crear diagrama Mermaid de ciclo de vida y tabla de procesos.
+- [x] Crear ejemplos progresivos y caso real de servidor con hilos de trabajo.
+- [x] Crear ejercicios y soluciones.
+- [x] Crear benchmark de búsqueda en tabla de procesos y transición de estados.
+- [x] Actualizar README y ROADMAP a `benchmarked`.
+- [x] Verificar y hacer commit: `feat: add processes chapter`.
 
 ---
 

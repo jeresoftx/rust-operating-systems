@@ -1,0 +1,14 @@
+flowchart LR
+    Tabla["Tabla de procesos"] --> Proceso["Proceso PID=42"]
+    Proceso --> Nombre["Nombre"]
+    Proceso --> Estado["Estado del proceso"]
+    Estado --> Ready["Ready"]
+    Ready --> Running["Running"]
+    Running --> Blocked["Blocked"]
+    Blocked --> Ready
+    Running --> Terminated["Terminated"]
+    Ready --> Terminated
+    Proceso --> Hilo1["Hilo principal"]
+    Proceso --> Hilo2["Hilo worker"]
+    Hilo1 --> HReady["Ready / Running / Blocked / Terminated"]
+    Hilo2 --> HReady

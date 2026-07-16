@@ -8,10 +8,9 @@ orienta el avance, pero no convierte el curso en una carrera por terminar.
 
 ## Estado Actual
 
-El repositorio acaba de iniciar su fundación: estructura base, crate Rust,
-licencias, documentación de arranque, mapa de capítulos y checklist detallado.
-La siguiente línea natural es comenzar con procesos e hilos sin perder la
-anatomía completa de RFC-0001 §14.
+El repositorio ya tiene la fundación del curso y el primer capítulo
+desarrollado: procesos e hilos. La siguiente línea natural es continuar con
+mutex sin perder la anatomía completa de RFC-0001 §14.
 
 El checklist detallado vive en
 [`docs/superpowers/plans/2026-07-16-rust-operating-systems-course.md`](docs/superpowers/plans/2026-07-16-rust-operating-systems-course.md).
@@ -20,7 +19,7 @@ El checklist detallado vive en
 
 | # | Capítulo | Estado |
 |---|----------|--------|
-| 01 | Procesos e hilos | planned |
+| 01 | Procesos e hilos | benchmarked |
 | 02 | Mutex | planned |
 | 03 | Semáforos | planned |
 | 04 | Memoria | planned |
