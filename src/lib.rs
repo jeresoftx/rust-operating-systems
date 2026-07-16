@@ -7,6 +7,7 @@
 //! La intención inicial no es construir un kernel de producción. La intención
 //! es crear modelos educativos pequeños, verificables y bien documentados.
 
+pub mod memory;
 pub mod mutex;
 pub mod processes;
 pub mod semaphores;

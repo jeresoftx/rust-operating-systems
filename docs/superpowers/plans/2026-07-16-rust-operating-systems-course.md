@@ -214,15 +214,15 @@ Antes de cada commit importante, cuando aplique:
 - Modify: `README.md`
 - Modify: `ROADMAP.md`
 
-- [ ] Diseñar API mínima: `Address`, `Bytes`, `MemoryRegion`, `Allocation`, `AllocatorModel`, `MemoryError`.
-- [ ] Escribir test rojo para crear una región de memoria con inicio y tamaño.
-- [ ] Implementar `MemoryRegion` con validación de rango.
-- [ ] Escribir test rojo para reservar un bloque dentro de una región.
-- [ ] Implementar `AllocatorModel` first-fit educativo.
-- [ ] Escribir test rojo para liberar un bloque y reutilizar espacio.
-- [ ] Implementar liberación y coalescing simple de huecos contiguos.
-- [ ] Escribir test rojo para detectar fragmentación externa.
-- [ ] Implementar métrica educativa de fragmentación.
+- [x] Diseñar API mínima: `Address`, `Bytes`, `MemoryRegion`, `Allocation`, `AllocatorModel`, `MemoryError`.
+- [x] Escribir test rojo para crear una región de memoria con inicio y tamaño.
+- [x] Implementar `MemoryRegion` con validación de rango.
+- [x] Escribir test rojo para reservar un bloque dentro de una región.
+- [x] Implementar `AllocatorModel` first-fit educativo.
+- [x] Escribir test rojo para liberar un bloque y reutilizar espacio.
+- [x] Implementar liberación y coalescing simple de huecos contiguos.
+- [x] Escribir test rojo para detectar fragmentación externa.
+- [x] Implementar métrica educativa de fragmentación.
 - [ ] Documentar direcciones, regiones, asignación, liberación, fragmentación interna y externa.
 - [ ] Crear diagrama Mermaid de región, bloques y huecos.
 - [ ] Crear ejemplos progresivos y caso real de arena para solicitudes.
