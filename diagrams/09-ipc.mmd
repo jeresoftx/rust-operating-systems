@@ -1,0 +1,12 @@
+flowchart LR
+    ProcessA["Proceso A"] --> EndpointA["ProcessEndpoint A"]
+    ProcessB["Proceso B"] --> EndpointB["ProcessEndpoint B"]
+    EndpointA --> Send["send(Message)"]
+    Send --> Capacity{"¿hay capacidad?"}
+    Capacity -- "sí" --> Queue["MessageQueue / Pipe"]
+    Capacity -- "no" --> Backpressure["IpcError::Backpressure"]
+    Queue --> Pending["Mensajes pendientes"]
+    Pending --> Receive["receive(endpoint) / read()"]
+    Receive --> EndpointB
+    Queue --> Close["close()"]
+    Close --> Closed["IpcError::ClosedChannel"]

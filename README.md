@@ -41,7 +41,7 @@ cursos pueden reutilizar esos conceptos, pero no deben reexplicarlos desde cero.
 | 06 | Paging | `src/paging.rs` | benchmarked |
 | 07 | Memoria virtual | `src/virtual_memory.rs` | benchmarked |
 | 08 | Señales | `src/signals.rs` | benchmarked |
-| 09 | IPC | `src/ipc.rs` | planned |
+| 09 | IPC | `src/ipc.rs` | benchmarked |
 | 10 | Filesystem | `src/filesystem.rs` | planned |
 
 Estados posibles: `planned`, `draft`, `implemented`, `tested`,

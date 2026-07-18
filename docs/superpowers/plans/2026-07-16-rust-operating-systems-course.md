@@ -418,13 +418,13 @@ Antes de cada commit importante, cuando aplique:
 - [x] Implementar rechazo o espera educativa cuando la cola está llena.
 - [x] Escribir test rojo para canal cerrado.
 - [x] Implementar error `ClosedChannel`.
-- [ ] Documentar pipes, colas de mensajes, memoria compartida conceptual, backpressure y límites.
-- [ ] Crear diagrama Mermaid de dos procesos y canal.
-- [ ] Crear ejemplos progresivos y caso real de proceso supervisor.
-- [ ] Crear ejercicios y soluciones.
-- [ ] Crear benchmark de envío/recepción de mensajes.
-- [ ] Actualizar README y ROADMAP a `benchmarked`.
-- [ ] Verificar y hacer commit: `feat: add ipc chapter`.
+- [x] Documentar pipes, colas de mensajes, memoria compartida conceptual, backpressure y límites.
+- [x] Crear diagrama Mermaid de dos procesos y canal.
+- [x] Crear ejemplos progresivos y caso real de proceso supervisor.
+- [x] Crear ejercicios y soluciones.
+- [x] Crear benchmark de envío/recepción de mensajes.
+- [x] Actualizar README y ROADMAP a `benchmarked`.
+- [x] Verificar y hacer commit: `feat: add ipc chapter`.
 
 ---
 

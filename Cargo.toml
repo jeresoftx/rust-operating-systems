@@ -109,6 +109,18 @@ path = "examples/soluciones/signal_mask.rs"
 name = "solution_signal_handler"
 path = "examples/soluciones/signal_handler.rs"
 
+[[example]]
+name = "solution_ipc_pipe"
+path = "examples/soluciones/ipc_pipe.rs"
+
+[[example]]
+name = "solution_ipc_message_queue"
+path = "examples/soluciones/ipc_message_queue.rs"
+
+[[example]]
+name = "solution_ipc_backpressure"
+path = "examples/soluciones/ipc_backpressure.rs"
+
 [[bench]]
 name = "processes_bench"
 harness = false
@@ -139,4 +151,8 @@ harness = false
 
 [[bench]]
 name = "signals_bench"
+harness = false
+
+[[bench]]
+name = "ipc_bench"
 harness = false
