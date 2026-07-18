@@ -331,15 +331,15 @@ Antes de cada commit importante, cuando aplique:
 - Modify: `README.md`
 - Modify: `ROADMAP.md`
 
-- [ ] Diseñar API mínima: `VirtualAddress`, `PhysicalAddress`, `AddressSpaceId`, `AddressSpace`, `Mapping`, `VirtualMemoryError`.
-- [ ] Escribir test rojo para traducir dirección virtual a física.
-- [ ] Implementar mapeo educativo virtual-físico.
-- [ ] Escribir test rojo para aislamiento entre dos espacios de direcciones.
-- [ ] Implementar `AddressSpace`.
-- [ ] Escribir test rojo para protección de página no mapeada.
-- [ ] Implementar error `UnmappedAddress`.
-- [ ] Escribir test rojo para modelo simple de copy-on-write.
-- [ ] Implementar contador de referencias educativo para páginas compartidas.
+- [x] Diseñar API mínima: `VirtualAddress`, `PhysicalAddress`, `AddressSpaceId`, `AddressSpace`, `Mapping`, `VirtualMemoryError`.
+- [x] Escribir test rojo para traducir dirección virtual a física.
+- [x] Implementar mapeo educativo virtual-físico.
+- [x] Escribir test rojo para aislamiento entre dos espacios de direcciones.
+- [x] Implementar `AddressSpace`.
+- [x] Escribir test rojo para protección de página no mapeada.
+- [x] Implementar error `UnmappedAddress`.
+- [x] Escribir test rojo para modelo simple de copy-on-write.
+- [x] Implementar contador de referencias educativo para páginas compartidas.
 - [ ] Documentar aislamiento, traducción, permisos, page tables, TLB conceptual y copy-on-write.
 - [ ] Crear diagrama Mermaid de espacio virtual por proceso.
 - [ ] Crear ejemplos progresivos y caso real de fork conceptual.
