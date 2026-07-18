@@ -370,15 +370,15 @@ Antes de cada commit importante, cuando aplique:
 - Modify: `README.md`
 - Modify: `ROADMAP.md`
 
-- [ ] Diseñar API mínima: `Signal`, `SignalNumber`, `SignalAction`, `SignalMask`, `SignalQueue`, `SignalError`.
-- [ ] Escribir test rojo para encolar una señal dirigida a un proceso.
-- [ ] Implementar `SignalQueue`.
-- [ ] Escribir test rojo para bloquear una señal con máscara.
-- [ ] Implementar `SignalMask`.
-- [ ] Escribir test rojo para entregar señales no bloqueadas en orden determinista.
-- [ ] Implementar despacho educativo.
-- [ ] Escribir test rojo para acción por defecto, ignorar y manejar.
-- [ ] Implementar `SignalAction`.
+- [x] Diseñar API mínima: `Signal`, `SignalNumber`, `SignalAction`, `SignalMask`, `SignalQueue`, `SignalError`.
+- [x] Escribir test rojo para encolar una señal dirigida a un proceso.
+- [x] Implementar `SignalQueue`.
+- [x] Escribir test rojo para bloquear una señal con máscara.
+- [x] Implementar `SignalMask`.
+- [x] Escribir test rojo para entregar señales no bloqueadas en orden determinista.
+- [x] Implementar despacho educativo.
+- [x] Escribir test rojo para acción por defecto, ignorar y manejar.
+- [x] Implementar `SignalAction`.
 - [ ] Documentar señales, entrega asíncrona, máscaras, handlers, acciones por defecto y riesgos.
 - [ ] Crear diagrama Mermaid de envío, máscara y entrega.
 - [ ] Crear ejemplos progresivos y caso real de apagado ordenado.

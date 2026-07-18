@@ -13,6 +13,7 @@ pub mod paging;
 pub mod processes;
 pub mod scheduling;
 pub mod semaphores;
+pub mod signals;
 pub mod virtual_memory;
 
 /// Devuelve el nombre canónico del curso.
