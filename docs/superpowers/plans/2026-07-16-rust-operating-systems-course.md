@@ -409,15 +409,15 @@ Antes de cada commit importante, cuando aplique:
 - Modify: `README.md`
 - Modify: `ROADMAP.md`
 
-- [ ] Diseñar API mínima: `ProcessEndpoint`, `Message`, `Pipe`, `MessageQueue`, `IpcError`.
-- [ ] Escribir test rojo para enviar y recibir un mensaje entre dos procesos.
-- [ ] Implementar `MessageQueue`.
-- [ ] Escribir test rojo para pipe con orden FIFO.
-- [ ] Implementar `Pipe`.
-- [ ] Escribir test rojo para capacidad limitada y backpressure.
-- [ ] Implementar rechazo o espera educativa cuando la cola está llena.
-- [ ] Escribir test rojo para canal cerrado.
-- [ ] Implementar error `ClosedChannel`.
+- [x] Diseñar API mínima: `ProcessEndpoint`, `Message`, `Pipe`, `MessageQueue`, `IpcError`.
+- [x] Escribir test rojo para enviar y recibir un mensaje entre dos procesos.
+- [x] Implementar `MessageQueue`.
+- [x] Escribir test rojo para pipe con orden FIFO.
+- [x] Implementar `Pipe`.
+- [x] Escribir test rojo para capacidad limitada y backpressure.
+- [x] Implementar rechazo o espera educativa cuando la cola está llena.
+- [x] Escribir test rojo para canal cerrado.
+- [x] Implementar error `ClosedChannel`.
 - [ ] Documentar pipes, colas de mensajes, memoria compartida conceptual, backpressure y límites.
 - [ ] Crear diagrama Mermaid de dos procesos y canal.
 - [ ] Crear ejemplos progresivos y caso real de proceso supervisor.
