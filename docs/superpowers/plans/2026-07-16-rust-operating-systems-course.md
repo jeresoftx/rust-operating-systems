@@ -379,13 +379,13 @@ Antes de cada commit importante, cuando aplique:
 - [x] Implementar despacho educativo.
 - [x] Escribir test rojo para acción por defecto, ignorar y manejar.
 - [x] Implementar `SignalAction`.
-- [ ] Documentar señales, entrega asíncrona, máscaras, handlers, acciones por defecto y riesgos.
-- [ ] Crear diagrama Mermaid de envío, máscara y entrega.
-- [ ] Crear ejemplos progresivos y caso real de apagado ordenado.
-- [ ] Crear ejercicios y soluciones.
-- [ ] Crear benchmark de despacho de señales.
-- [ ] Actualizar README y ROADMAP a `benchmarked`.
-- [ ] Verificar y hacer commit: `feat: add signals chapter`.
+- [x] Documentar señales, entrega asíncrona, máscaras, handlers, acciones por defecto y riesgos.
+- [x] Crear diagrama Mermaid de envío, máscara y entrega.
+- [x] Crear ejemplos progresivos y caso real de apagado ordenado.
+- [x] Crear ejercicios y soluciones.
+- [x] Crear benchmark de despacho de señales.
+- [x] Actualizar README y ROADMAP a `benchmarked`.
+- [x] Verificar y hacer commit: `feat: add signals chapter`.
 
 ---
 

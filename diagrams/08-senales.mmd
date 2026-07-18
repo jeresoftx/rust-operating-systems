@@ -1,0 +1,13 @@
+flowchart LR
+    Sender["Proceso o kernel envía señal"] --> Queue["SignalQueue"]
+    Queue --> Pending["Señales pendientes"]
+    Pending --> Dispatch["dispatch_next(pid, mask)"]
+    Dispatch --> Mask{"¿señal bloqueada?"}
+    Mask -- "sí" --> Keep["Permanece pendiente"]
+    Mask -- "no" --> Action{"SignalAction"}
+    Action -- "Default" --> Default["Resultado Default"]
+    Action -- "Ignore" --> Ignored["Resultado Ignored"]
+    Action -- "Handle" --> Handler["Handler nombrado"]
+    Handler --> Delivered["SignalDelivery"]
+    Default --> Delivered
+    Ignored --> Delivered

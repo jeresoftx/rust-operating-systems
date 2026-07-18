@@ -40,7 +40,7 @@ cursos pueden reutilizar esos conceptos, pero no deben reexplicarlos desde cero.
 | 05 | Scheduling | `src/scheduling.rs` | benchmarked |
 | 06 | Paging | `src/paging.rs` | benchmarked |
 | 07 | Memoria virtual | `src/virtual_memory.rs` | benchmarked |
-| 08 | Señales | `src/signals.rs` | planned |
+| 08 | Señales | `src/signals.rs` | benchmarked |
 | 09 | IPC | `src/ipc.rs` | planned |
 | 10 | Filesystem | `src/filesystem.rs` | planned |
 

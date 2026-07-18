@@ -97,6 +97,18 @@ path = "examples/soluciones/address_space_isolation.rs"
 name = "solution_copy_on_write_model"
 path = "examples/soluciones/copy_on_write_model.rs"
 
+[[example]]
+name = "solution_signal_delivery"
+path = "examples/soluciones/signal_delivery.rs"
+
+[[example]]
+name = "solution_signal_mask"
+path = "examples/soluciones/signal_mask.rs"
+
+[[example]]
+name = "solution_signal_handler"
+path = "examples/soluciones/signal_handler.rs"
+
 [[bench]]
 name = "processes_bench"
 harness = false
@@ -123,4 +135,8 @@ harness = false
 
 [[bench]]
 name = "virtual_memory_bench"
+harness = false
+
+[[bench]]
+name = "signals_bench"
 harness = false
