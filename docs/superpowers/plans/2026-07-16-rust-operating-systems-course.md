@@ -340,13 +340,13 @@ Antes de cada commit importante, cuando aplique:
 - [x] Implementar error `UnmappedAddress`.
 - [x] Escribir test rojo para modelo simple de copy-on-write.
 - [x] Implementar contador de referencias educativo para páginas compartidas.
-- [ ] Documentar aislamiento, traducción, permisos, page tables, TLB conceptual y copy-on-write.
-- [ ] Crear diagrama Mermaid de espacio virtual por proceso.
-- [ ] Crear ejemplos progresivos y caso real de fork conceptual.
-- [ ] Crear ejercicios y soluciones.
-- [ ] Crear benchmark de traducción virtual-física.
-- [ ] Actualizar README y ROADMAP a `benchmarked`.
-- [ ] Verificar y hacer commit: `feat: add virtual memory chapter`.
+- [x] Documentar aislamiento, traducción, permisos, page tables, TLB conceptual y copy-on-write.
+- [x] Crear diagrama Mermaid de espacio virtual por proceso.
+- [x] Crear ejemplos progresivos y caso real de fork conceptual.
+- [x] Crear ejercicios y soluciones.
+- [x] Crear benchmark de traducción virtual-física.
+- [x] Actualizar README y ROADMAP a `benchmarked`.
+- [x] Verificar y hacer commit: `feat: add virtual memory chapter`.
 
 ---
 

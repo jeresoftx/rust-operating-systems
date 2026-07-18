@@ -1,0 +1,16 @@
+flowchart LR
+    VA["VirtualAddress 0x4000"] --> SpaceA["AddressSpace A"]
+    VA --> SpaceB["AddressSpace B"]
+    SpaceA --> MapA["Mapping A: 0x4000 -> 0xA000"]
+    SpaceB --> MapB["Mapping B: 0x4000 -> 0xB000"]
+    MapA --> PhysA["PhysicalAddress 0xA000"]
+    MapB --> PhysB["PhysicalAddress 0xB000"]
+    Access["translate(address, access)"] --> Perms{"¿permiso válido?"}
+    Perms -- "no" --> Protection["ProtectionViolation"]
+    Perms -- "sí" --> Physical["Dirección física + offset"]
+    Parent["Padre"] --> Fork["fork_copy_on_write()"]
+    Fork --> ParentCow["Padre COW refs=2"]
+    Fork --> ChildCow["Hijo COW refs=2"]
+    ChildCow --> Write{"¿escritura?"}
+    Write -- "sí" --> CowFault["CopyOnWriteFault"]
+    Write -- "no" --> SharedRead["Lectura compartida"]
