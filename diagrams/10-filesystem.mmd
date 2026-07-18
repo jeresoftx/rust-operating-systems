@@ -1,0 +1,11 @@
+flowchart TD
+    RootPath["Ruta /"] --> RootInode["Inode 1: Directory"]
+    RootInode --> SrcEntry["DirectoryEntry: src"]
+    RootInode --> ReadmeEntry["DirectoryEntry: README.md"]
+    SrcEntry --> SrcInode["Inode 2: Directory"]
+    ReadmeEntry --> ReadmeInode["Inode 3: File"]
+    SrcInode --> LibEntry["DirectoryEntry: lib.rs"]
+    LibEntry --> LibInode["Inode 4: File"]
+    Query["resolve_path('/src/lib.rs')"] --> RootInode
+    Query --> SrcEntry
+    Query --> LibEntry

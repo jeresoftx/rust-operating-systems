@@ -121,6 +121,18 @@ path = "examples/soluciones/ipc_message_queue.rs"
 name = "solution_ipc_backpressure"
 path = "examples/soluciones/ipc_backpressure.rs"
 
+[[example]]
+name = "solution_filesystem_inode"
+path = "examples/soluciones/filesystem_inode.rs"
+
+[[example]]
+name = "solution_filesystem_directory"
+path = "examples/soluciones/filesystem_directory.rs"
+
+[[example]]
+name = "solution_filesystem_permissions"
+path = "examples/soluciones/filesystem_permissions.rs"
+
 [[bench]]
 name = "processes_bench"
 harness = false
@@ -155,4 +167,8 @@ harness = false
 
 [[bench]]
 name = "ipc_bench"
+harness = false
+
+[[bench]]
+name = "filesystem_bench"
 harness = false

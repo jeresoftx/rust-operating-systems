@@ -457,13 +457,13 @@ Antes de cada commit importante, cuando aplique:
 - [x] Implementar `Permissions`.
 - [x] Escribir test rojo para rechazar ciclos y nombres inválidos.
 - [x] Implementar validación de árbol educativo.
-- [ ] Documentar inodos, directorios, rutas, permisos, metadata, journaling conceptual y modos de falla.
-- [ ] Crear diagrama Mermaid de árbol de directorios e inodos.
-- [ ] Crear ejemplos progresivos y caso real de workspace de proyecto.
-- [ ] Crear ejercicios y soluciones.
-- [ ] Crear benchmark de resolución de rutas.
-- [ ] Actualizar README y ROADMAP a `benchmarked`.
-- [ ] Verificar y hacer commit: `feat: add filesystem chapter`.
+- [x] Documentar inodos, directorios, rutas, permisos, metadata, journaling conceptual y modos de falla.
+- [x] Crear diagrama Mermaid de árbol de directorios e inodos.
+- [x] Crear ejemplos progresivos y caso real de workspace de proyecto.
+- [x] Crear ejercicios y soluciones.
+- [x] Crear benchmark de resolución de rutas.
+- [x] Actualizar README y ROADMAP a `benchmarked`.
+- [x] Verificar y hacer commit: `feat: add filesystem chapter`.
 
 ---
 

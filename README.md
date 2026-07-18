@@ -42,7 +42,7 @@ cursos pueden reutilizar esos conceptos, pero no deben reexplicarlos desde cero.
 | 07 | Memoria virtual | `src/virtual_memory.rs` | benchmarked |
 | 08 | Señales | `src/signals.rs` | benchmarked |
 | 09 | IPC | `src/ipc.rs` | benchmarked |
-| 10 | Filesystem | `src/filesystem.rs` | planned |
+| 10 | Filesystem | `src/filesystem.rs` | benchmarked |
 
 Estados posibles: `planned`, `draft`, `implemented`, `tested`,
 `benchmarked`, `reviewed`, `published`.
