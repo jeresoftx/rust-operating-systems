@@ -448,15 +448,15 @@ Antes de cada commit importante, cuando aplique:
 - Modify: `README.md`
 - Modify: `ROADMAP.md`
 
-- [ ] Diseñar API mínima: `InodeId`, `FileType`, `Permissions`, `DirectoryEntry`, `Inode`, `FileSystemModel`, `FileSystemError`.
-- [ ] Escribir test rojo para crear archivo y directorio raíz.
-- [ ] Implementar `Inode` y `DirectoryEntry`.
-- [ ] Escribir test rojo para resolver una ruta simple.
-- [ ] Implementar resolución de rutas absolutas.
-- [ ] Escribir test rojo para permisos de lectura/escritura/ejecución.
-- [ ] Implementar `Permissions`.
-- [ ] Escribir test rojo para rechazar ciclos y nombres inválidos.
-- [ ] Implementar validación de árbol educativo.
+- [x] Diseñar API mínima: `InodeId`, `FileType`, `Permissions`, `DirectoryEntry`, `Inode`, `FileSystemModel`, `FileSystemError`.
+- [x] Escribir test rojo para crear archivo y directorio raíz.
+- [x] Implementar `Inode` y `DirectoryEntry`.
+- [x] Escribir test rojo para resolver una ruta simple.
+- [x] Implementar resolución de rutas absolutas.
+- [x] Escribir test rojo para permisos de lectura/escritura/ejecución.
+- [x] Implementar `Permissions`.
+- [x] Escribir test rojo para rechazar ciclos y nombres inválidos.
+- [x] Implementar validación de árbol educativo.
 - [ ] Documentar inodos, directorios, rutas, permisos, metadata, journaling conceptual y modos de falla.
 - [ ] Crear diagrama Mermaid de árbol de directorios e inodos.
 - [ ] Crear ejemplos progresivos y caso real de workspace de proyecto.
